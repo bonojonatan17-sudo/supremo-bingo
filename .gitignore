@@ -1,9 +1,18 @@
-function Einstellungen() {
-  return (
-    <div style={{ color: "white", padding: "40px" }}>
-      <h1>⚙️ Einstellungen</h1>
-    </div>
-  );
-}
+# Logs
+logs
+*.log
+npm-debug.log*
 
-export default Einstellungen;
+# Dependencies
+node_modules
+
+# Build
+dist
+
+# Environment
+.env
+.env.local
+
+# Editor
+.vscode
+.DS_Store
