@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:
+    radial-gradient(circle at top,#3B1B69 0%,#1A1030 35%,#0E081A 100%);
+
+    min-height:100vh;
+
+    color:white;
+
+    overflow-x:hidden;
+}
+
+#root{
+    min-height:100vh;
+}

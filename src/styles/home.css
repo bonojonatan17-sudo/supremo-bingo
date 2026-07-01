@@ -1,0 +1,39 @@
+.winner-history{
+    width:90%;
+    max-width:900px;
+
+    margin:20px auto;
+
+    background:#181028;
+
+    border:2px solid #7C3AED;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    color:white;
+
+    box-shadow:0 0 20px rgba(124,58,237,.4);
+}
+
+.winner-history h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.winner-item{
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:12px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    font-size:18px;
+}
+
+.winner-item:last-child{
+    border:none;
+}

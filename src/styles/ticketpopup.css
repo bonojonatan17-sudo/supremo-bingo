@@ -1,0 +1,10 @@
+.ticket-info{
+  margin:25px 0;
+  line-height:2;
+  color:white;
+}
+
+.ticket-info h2{
+  color:#22C55E;
+  margin-bottom:20px;
+}

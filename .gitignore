@@ -1,0 +1,9 @@
+function Einstellungen() {
+  return (
+    <div style={{ color: "white", padding: "40px" }}>
+      <h1>⚙️ Einstellungen</h1>
+    </div>
+  );
+}
+
+export default Einstellungen;

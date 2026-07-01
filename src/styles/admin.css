@@ -1,0 +1,106 @@
+.admin-page{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+    color:white;
+}
+
+.admin-page h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#A855F7;
+}
+
+.search{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    margin-bottom:25px;
+    font-size:17px;
+    background:#23153c;
+    color:white;
+    outline:none;
+}
+
+.search::placeholder{
+    color:#bbb;
+}
+
+.admin-card{
+    background:#181028;
+    border:2px solid #8B5CF6;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 25px rgba(139,92,246,.35);
+}
+
+.player-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#23153c;
+    padding:18px;
+    margin-top:15px;
+    border-radius:15px;
+    transition:.25s;
+}
+
+.player-card:hover{
+    transform:scale(1.02);
+}
+
+.player-card h3{
+    margin:0;
+    color:#fff;
+}
+
+.player-card p{
+    margin-top:6px;
+    color:#cfcfcf;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+}
+
+.buttons button{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:22px;
+    color:white;
+    transition:.25s;
+}
+
+.buttons button:first-child{
+    background:#16A34A;
+}
+
+.buttons button:last-child{
+    background:#DC2626;
+}
+
+.buttons button:hover{
+    transform:scale(1.08);
+}
+
+.logout{
+    width:100%;
+    margin-top:30px;
+    padding:16px;
+    border:none;
+    border-radius:15px;
+    background:#7C3AED;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.logout:hover{
+    background:#9333EA;
+}

@@ -1,0 +1,50 @@
+.background-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.35;
+  animation: float 8s ease-in-out infinite;
+}
+
+.glow:nth-child(1) {
+  width: 350px;
+  height: 350px;
+  background: #7c3aed;
+  top: 5%;
+  left: 10%;
+}
+
+.glow:nth-child(2) {
+  width: 300px;
+  height: 300px;
+  background: #22c55e;
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 2s;
+}
+
+.glow:nth-child(3) {
+  width: 250px;
+  height: 250px;
+  background: #3b82f6;
+  top: 40%;
+  right: 35%;
+  animation-delay: 4s;
+}
+
+@keyframes float {
+  0%,100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-25px) scale(1.1);
+  }
+}

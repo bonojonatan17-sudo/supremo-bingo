@@ -1,0 +1,100 @@
+.header-buttons{
+display:flex;
+gap:15px;
+}
+
+.header-buttons button{
+
+padding:12px 22px;
+
+border:none;
+
+border-radius:14px;
+
+background:#7C3AED;
+
+color:white;
+
+cursor:pointer;
+
+font-size:16px;
+
+transition:.3s;
+
+}
+
+.header-buttons button:hover{
+
+transform:translateY(-2px);
+
+background:#9333EA;
+
+}
+
+.rules-overlay{
+
+position:fixed;
+
+inset:0;
+
+background:rgba(0,0,0,.75);
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+}
+
+.rules-box{
+
+width:500px;
+
+background:#181028;
+
+border:2px solid #8B5CF6;
+
+padding:35px;
+
+border-radius:20px;
+
+color:white;
+
+box-shadow:0 0 35px rgba(168,85,247,.6);
+
+}
+
+.rules-box h2{
+
+margin-bottom:20px;
+
+}
+
+.rules-box ul{
+
+padding-left:20px;
+
+line-height:2;
+
+}
+
+.rules-box button{
+
+margin-top:25px;
+
+padding:12px 30px;
+
+background:#7C3AED;
+
+border:none;
+
+color:white;
+
+border-radius:12px;
+
+cursor:pointer;
+
+}

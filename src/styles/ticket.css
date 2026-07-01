@@ -1,0 +1,118 @@
+.ticket{
+    background:linear-gradient(180deg,#1A1230,#0F172A);
+
+    border:2px solid #8B5CF6;
+
+    border-radius:22px;
+
+    padding:20px;
+
+    box-shadow:
+    0 0 20px rgba(139,92,246,.35);
+
+    transition:.3s;
+}
+
+.ticket:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 0 35px rgba(168,85,247,.65);
+
+}
+
+.ticket-header{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,60px);
+
+    gap:8px;
+
+    justify-content:center;
+
+    margin-bottom:15px;
+
+}
+
+.letter{
+
+    height:50px;
+
+    border-radius:14px;
+
+    background:linear-gradient(180deg,#A855F7,#7C3AED);
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    box-shadow:0 0 12px rgba(168,85,247,.45);
+
+}
+
+.ticket-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,60px);
+
+    gap:8px;
+
+    justify-content:center;
+
+}
+
+.cell{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:14px;
+
+    background:#1F2937;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+    transition:.25s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.cell:hover{
+
+    transform:scale(1.08);
+
+    background:#374151;
+
+}
+
+.marked{
+
+    background:linear-gradient(180deg,#4ADE80,#16A34A);
+
+    box-shadow:
+    0 0 20px #22C55E;
+
+    color:white;
+
+}
