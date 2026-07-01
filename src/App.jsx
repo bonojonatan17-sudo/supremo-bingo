@@ -12,7 +12,6 @@ import AdminLogin from "./Pages/AdminLogin";
 function App() {
   return (
     <Routes>
-
       {/* Hauptseiten */}
       <Route path="/" element={<Home />} />
       <Route path="/bingo" element={<Bingo />} />
@@ -26,7 +25,6 @@ function App() {
       {/* Admin */}
       <Route path="/admin-login" element={<AdminLogin />} />
       <Route path="/admin" element={<Admin />} />
-
     </Routes>
   );
 }
